@@ -18,20 +18,18 @@ let countDown = new Date('Sep 21, 2024 18:00:00').getTime(),
   }, second);
 
 
-
+/* music */
 var music = document.getElementById("music");
 var isPlaying = false;
 music.volume = 0.5;
 
-
 function togglePlay() {
   if (isPlaying) {
-    music.pause()
+    music.pause();
   } else {
     music.play();
   }
 };
-
 
 music.onplaying = function () {
   isPlaying = true;
@@ -43,6 +41,7 @@ music.onpause = function () {
 };
 
 var button = document.getElementById("toggle");
+
 button.addEventListener('click', function () {
   if (button.getAttribute("data-text-swap") == button.innerHTML) {
     button.innerHTML = button.getAttribute("data-text-original");
@@ -51,3 +50,4 @@ button.addEventListener('click', function () {
     button.innerHTML = button.getAttribute("data-text-swap");
   }
 }, false);
+

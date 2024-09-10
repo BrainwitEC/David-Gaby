@@ -6,8 +6,10 @@
     --bg-dorado-2:#D9AF63;
     --bg-dorado-3:#BF8C4E;
     --bg-dorado-4:#BF793B;
+    --bg-dorado-5:#84643f;
     --txt-body: #242424;
     --white: #ffffff;
+    --gray: #989898;
 
     --bg-dorado-opacity-50: rgba(242,216,167,50%);
 
@@ -25,18 +27,16 @@
     --img-F2: url(../img/F2.webp);
     --img-F3: url(../img/F3.webp);
     --img-F4: url(../img/F4.webp);
-    --img-F5: url(../img/F5.webp);
+    --img-F5: url(../img/F5.webp); 
 
-    --img-overlay-1: url(../img/mancha-1.svg); 
-    --img-overlay-2: url(../img/mancha-2.svg); 
-    --img-overlay-3: url(../img/mancha-3.svg); 
+    --img-overlay-stain-1: url(../img/stain-1.svg); 
+    --img-overlay-stain-2: url(../img/stain-2.svg); 
 
-    --img-overlay-place-1: url(../img/points-1.svg); 
-    --img-overlay-place-2: url(../img/points-2.svg); 
-    --img-overlay-place-3: url(../img/Element-footer-3.svg); 
-    --img-overlay-place-4: url(../img/Element-footer-2.svg); 
-    --img-overlay-place-5: url(../img/Element-footer-1.svg); 
+    --img-overlay-points-1: url(../img/points-2.svg); 
+    --img-overlay-points-2: url(../img/points-2.svg); 
 
-    --ico-date:  url(./../img/rings.svg);
-
+    --img-overlay-leaf-1: url(../img/leaf-1.svg); 
+    --img-overlay-leaf-2: url(../img/leaf-2.svg);  
+    --img-overlay-leaf-3: url(../img/leaf-3.svg);  
+ 
 }
