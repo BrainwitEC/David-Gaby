@@ -41,6 +41,9 @@ ul {
 img {
     user-select: none;
 }
+.box-audio {
+    user-select: none;
+}
 
 ::selection {
     background: var(--bg-dorado-1);
